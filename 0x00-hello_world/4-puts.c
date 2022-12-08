@@ -1,22 +1,9 @@
 
-#include <stdio.h>
-
-
+#include <string.h>
 
 /**
- 
-     * main - prints the phrase "Programming is like building a multilingual puzzle
- 
-     * Return: 0 if exited properly, non-zero otherwise
- 
+      * main - Main function of the project
+      *
+      *
+      * Return: return 0 all the time 
      */
-
-int main(void)
-
-{
-
-		puts("\"Programming is like building a multilingual puzzle");
-
-			return (0);
-
-}
