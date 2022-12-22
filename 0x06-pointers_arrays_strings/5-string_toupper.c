@@ -8,7 +8,7 @@
  * Return: @s
  */
 
-char *string_troupper(char *s)
+char *string_toupper(char *s)
 {
 	int i = 0;
 
