@@ -1,5 +1,5 @@
 /**
- * string_troupper - a function that changes all
+ * string_toupper - a function that changes all
  * lowercase letter of a string
  * to uppercase.
  *
