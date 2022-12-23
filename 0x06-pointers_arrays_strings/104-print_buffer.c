@@ -24,11 +24,11 @@ void printHexes(char *b, int start, int end)
 	while (i < 10)
 	{
 		if (i < end)
-			print("%02", *(b + start + i);
+			print("%02", *(b + start + i));
 		else
-			print(" ");
+			printf(" ");
 		if (i % 2)
-			print(" ");
+			printf(" ");
 		i++;
 	}
 }
