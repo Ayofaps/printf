@@ -24,7 +24,7 @@ void printHexes(char *b, int start, int end)
 	while (i < 10)
 	{
 		if (i < end)
-			print("%02", *(b + start + i));
+			printf("%02", *(b + start + i));
 		else
 			printf(" ");
 		if (i % 2)
