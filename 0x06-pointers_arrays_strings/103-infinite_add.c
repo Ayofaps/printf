@@ -16,11 +16,11 @@ char 8infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	while (*(n1 + c1) != '\0')
 	c1++;
-	while (*(*n2 +c2) != '\0')
+	while (*(n2 +c2) != '\0')
 	c2++;
 	if (c1 >= c2)
 	bg = c1;
 	else
 	bg = c2;
 	if (sizer_r <= bg + 1)
-	return (o)
+	return (0)
