@@ -1,5 +1,5 @@
 /**
- * _strch - a function that locates a character in a string
+ * _strchr - a function that locates a character in a string
  *
  * @s: pointer to a string array input
  * @c: character to locate from input array
