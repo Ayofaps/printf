@@ -12,9 +12,10 @@ void print_chessboard(char (*a)[8])
 
 
 
+	
 	n = 0;
 
-	while (n < 8)/*repeat number*/
+	while (n < 8) /*repeat number*/
 
 	{
 		j = 0;
@@ -30,4 +31,5 @@ void print_chessboard(char (*a)[8])
 		_putchar ('\n'); /*print new line*/
 		n++;
 	}
+
 }
